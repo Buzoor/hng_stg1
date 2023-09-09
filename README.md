@@ -219,7 +219,7 @@ continuous deployment and hosting.
 
     > Netlify is configured to build and deploy updates automatically.
 
-    > The live web page URL is \[Insert Live URL\].
+    > The live web page URL is \[[Insert Live URL](https://hng-stg1.netlify.app/)\].
 
 ## 9. Maintenance
 
