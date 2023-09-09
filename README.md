@@ -1,11 +1,10 @@
 ---
-subtitle: "[]{#_vb8p0lepu9vn .anchor}"
-title: "[]{#_mbjsiz6n6jlo .anchor}**Project Documentation**"
+
 ---
 
 ![horizontal line](./readme_file/image2.png)
 
-# ![Placeholder image](./readme_file/image5.png)
+ ![Placeholder image](./readme_file/image5.png)
 
 \-\--
 
