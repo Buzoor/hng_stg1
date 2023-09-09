@@ -1,6 +1,6 @@
 # Web Project Documentation
 
-# ![Placeholder image](./readme_file//image4.png)"
+# ![Placeholder image](./image4.png)"
 
 ## 
 
