@@ -95,7 +95,7 @@ The project is built using the following technologies:
 
 -   JavaScript
 
--   [[Hosting Platform: Netlify]{.underline}](https://www.netlify.com/)
+-   [Hosting Platform: Netlify](https://www.netlify.com/)
 
 ## 2. Getting Started
 
