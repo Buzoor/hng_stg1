@@ -1,254 +1,244 @@
----
+# Web Project Documentation
 
----
+# ![Placeholder image](./readme_file//image4.png)"
 
-![horizontal line](./readme_file/image2.png)
+## 
 
- ![Placeholder image](./readme_file/image5.png)
+## Table of Contents
 
-\-\--
+-   Introduction
 
-\## Table of Contents
+    -   Purpose
 
-1\. \*\*Introduction\*\*
+    -   Features
 
-\- Purpose
+    -   Technology Stack
 
-\- Features
+    > Getting Started
 
-\- Technology Stack
+    -   Prerequisites
 
-2\. \*\*Getting Started\*\*
+    -   Installation
 
-\- Prerequisites
+    -   Usage
 
-\- Installation
+    > Folder Structure
 
-\- Usage
+    > HTML Structure
 
-3\. \*\*Folder Structure\*\*
+    -   Structure Overview
 
-4\. \*\*HTML Structure\*\*
+    -   Key Elements
 
-\- Structure Overview
+    > CSS Styles
 
-\- Key Elements
+    -   Styles Overview
 
-5\. \*\*CSS Styles\*\*
+    -   Key Styling
 
-\- Styles Overview
+    > JavaScript Logic
 
-\- Key Styling
+    -   Functionality Overview
 
-6\. \*\*JavaScript Logic\*\*
+    -   Key Functions
 
-\- Functionality Overview
+    > Testing
 
-\- Key Functions
+    -   Testing Tools
 
-7\. \*\*Testing\*\*
+    -   Test Cases
 
-\- Testing Tools
+    > Deployment
 
-\- Test Cases
+    -   Hosting Platform
 
-8\. \*\*Deployment\*\*
+    -   Deployment Process
 
-\- Hosting Platform
+    -   Live URL
 
-\- Deployment Process
+    > Maintenance
 
-\- Live URL
+    -   Updates and Improvements
 
-9\. \*\*Maintenance\*\*
+    -   Bug Tracking
 
-\- Updates and Improvements
+    -   Support and Contact
 
-\- Bug Tracking
+    > Conclusion
 
-\- Support and Contact
+## 1. Introduction
 
-10\. \*\*Conclusion\*\*
-
-\## 1. Introduction
-
-\### Purpose
+### Purpose
 
 This web project serves the purpose of showcasing personal and real-time
 data attributes. It includes features such as displaying the user\'s
 Slack name, profile picture, current day of the week, current UTC time,
 and a designated track (e.g., Frontend).
 
-\### Features
+### Features
 
-\- Prominent display of Slack name and profile picture.
+-   Prominent display of Slack name and profile picture.
 
-\- Real-time update of the current day of the week and UTC time.
+-   Real-time update of the current day of the week and UTC time.
 
-\- Option to change the user\'s track.
+-   Option to change the user\'s track.
 
-\- Easy identification and testing using \`data-testid\` attributes.
+-   Easy identification and testing using data-testid attributes.
 
-\### Technology Stack
+### Technology Stack
 
 The project is built using the following technologies:
 
-\- HTML
+-   HTML
 
-\- CSS
+-   CSS
 
-\- JavaScript
+-   JavaScript
 
-\- \[Hosting Platform: Netlify\](https://www.netlify.com/)
+-   [[Hosting Platform: Netlify]{.underline}](https://www.netlify.com/)
 
-\## 2. Getting Started
+## 2. Getting Started
 
-\### Prerequisites
+### Prerequisites
 
 Before getting started, ensure you have the following:
 
-\- A code editor (e.g., Visual Studio Code)
+-   A code editor (e.g., Visual Studio Code)
 
-\- Git installed
+-   Git installed
 
-\- Node.js and npm (for development and testing)
+-   Node.js and npm (for development and testing)
 
-\### Installation
+### Installation
 
-1\. Clone the repository: \`git clone \[repository-url\]\`
+-   Clone the repository: git clone \[repository-url\]
 
-2\. Navigate to the project folder: \`cd \[project-folder\]\`
+    > Navigate to the project folder: cd \[project-folder\]
 
-\### Usage
+### Usage
 
-\- Open \`index.html\` in a web browser to view the web page.
+-   Open index.html in a web browser to view the web page.
 
-\- Customize the data and styling as needed.
+-   Customize the data and styling as needed.
 
-\## 3. Folder Structure
+## 3. Folder Structure
 
 The project folder is structured as follows:
 
-\- \`index.html\`: Main HTML file
+-   index.html: Main HTML file
 
-\- \`style.css\`: CSS stylesheet
+-   style.css: CSS stylesheet
 
-\- \`script.js\`: JavaScript logic
+-   script.js: JavaScript logic
 
-\- \`images/\`: Folder for images
+-   images/: Folder for images
 
-\## 4. HTML Structure
+## 4. HTML Structure
 
-\### Structure Overview
+### Structure Overview
 
-\- The HTML file contains the structure of the web page, including
-headings, paragraphs, and an image.
+-   The HTML file contains the structure of the web page, including
+    > headings, paragraphs, and an image.
 
-\- \`data-testid\` attributes are used for easy identification and
-testing.
+-   data-testid attributes are used for easy identification and testing.
 
-\### Key Elements
+### Key Elements
 
-\- Slack Name (\`data-testid=\"slackUserName\"\`)
+-   Slack Name (data-testid=\"slackUserName\")
 
-\- Slack Display Picture (\`data-testid=\"slackDisplayImage\"\`)
+-   Slack Display Picture (data-testid=\"slackDisplayImage\")
 
-\- Current Day of the Week (\`data-testid=\"currentDayOfTheWeek\"\`)
+-   Current Day of the Week (data-testid=\"currentDayOfTheWeek\")
 
-\- Current UTC Time (\`data-testid=\"currentUTCTime\"\`)
+-   Current UTC Time (data-testid=\"currentUTCTime\")
 
-\- Track (\`data-testid=\"myTrack\"\`)
+-   Track (data-testid=\"myTrack\")
 
-\## 5. CSS Styles
+## 5. CSS Styles
 
-\### Styles Overview
+### Styles Overview
 
-\- CSS is used for styling the elements.
+-   CSS is used for styling the elements.
 
-\- Styles include font size, margin, padding, and more.
+-   Styles include font size, margin, padding, and more.
 
-\### Key Styling
+### Key Styling
 
-\- Slack Name (\`#slackName\`)
+-   Slack Name (#slackName)
 
-\- Slack Display Picture (\`#slackDisplayImage\`)
+-   Slack Display Picture (#slackDisplayImage)
 
-\- Current Day of the Week (\`#currentDayOfTheWeek\`)
+-   Current Day of the Week (#currentDayOfTheWeek)
 
-\- Current UTC Time (\`#currentUTCTime\`)
+-   Current UTC Time (#currentUTCTime)
 
-\- Track (\`#myTrack\`)
+-   Track (#myTrack)
 
-\## 6. JavaScript Logic
+## 6. JavaScript Logic
 
-\### Functionality Overview
+### Functionality Overview
 
-\- JavaScript is used for real-time updates and user interaction.
+-   JavaScript is used for real-time updates and user interaction.
 
-\- Functions update the current day of the week and UTC time.
+-   Functions update the current day of the week and UTC time.
 
-\- The user can change their track (for testing purposes).
+-   The user can change their track (for testing purposes).
 
-\### Key Functions
+### Key Functions
 
-\- \`updateDayOfTheWeek()\`: Updates the current day of the week.
+-   updateDayOfTheWeek(): Updates the current day of the week.
 
-\- \`updateUTCTime()\`: Updates the current UTC time.
+-   updateUTCTime(): Updates the current UTC time.
 
-\- \`changeUserTrack()\`: Changes the user\'s track (for testing).
+-   changeUserTrack(): Changes the user\'s track (for testing).
 
-\## 7. Testing
+## 7. Testing
 
-\### Testing Tools
+### Testing Tools
 
 Testing can be performed using JavaScript testing libraries or
-frameworks, leveraging the \`data-testid\` attributes for element
+frameworks, leveraging the data-testid attributes for element
 identification.
 
-\### Test Cases
+### Test Cases
 
 Sample test cases can be written to ensure the correct display of data
 attributes and user interactions.
 
-\## 8. Deployment
+## 8. Deployment
 
-\### Hosting Platform
+### Hosting Platform
 
-The web page is hosted on \[Netlify\](https://www.netlify.com/), a
-platform for continuous deployment and hosting.
+The web page is hosted on
+[[Netlify]](https://www.netlify.com/), a platform for
+continuous deployment and hosting.
 
-\### Deployment Process
+### Deployment Process
 
-1\. Code is hosted in a Git repository.
+-   Code is hosted in a Git repository.
 
-2\. Netlify is configured to build and deploy updates automatically.
+    > Netlify is configured to build and deploy updates automatically.
 
-3\. The live web page URL is \[Insert Live URL\].
+    > The live web page URL is \[Insert Live URL\].
 
-\## 9. Maintenance
+## 9. Maintenance
 
-\### Updates and Improvements
+### Updates and Improvements
 
 Future updates and improvements can be made to the project, such as
 adding new features or enhancing the user interface.
 
-\### Bug Tracking
+### Bug Tracking
 
 Any issues or bugs can be tracked and resolved using issue tracking
 tools.
 
-\### Support and Contact
+### Support and Contact
 
 For support or inquiries, contact \[Your Contact Information\].
 
-\## 10. Conclusion
+## 10. Conclusion
 
 This documentation provides an overview of the web project, its
 features, structure, and deployment process. It serves as a guide for
 understanding and maintaining the project.
-
-\-\--
-
-Please customize this documentation with your specific project details,
-URLs, and contact information. This comprehensive documentation will
-help you and others understand and manage the web project effectively.
